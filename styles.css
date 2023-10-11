@@ -1,0 +1,57 @@
+/*  General styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Container */
+
+#container {
+    height: 220px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.745);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*  Text  */
+
+#color {
+    font-size: 55px;
+    font-weight: bold;
+} 
+
+/*  Button  */
+
+button {
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: #4a8df8;
+    margin: 15px;
+    padding: 10px 30px;
+    border: 2px solid #4a8df8;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #00277b;
+    border: 2px solid #00277b;
+}
